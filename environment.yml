@@ -16,8 +16,7 @@ dependencies:
   - spacy
   - nltk
   - pip
-  - torch
   - pip:
-    - torch
+    - torch==1.4.0
     - pyLDAvis
-    - torchtext
+    - torchtext==0.5.0
